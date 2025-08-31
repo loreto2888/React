@@ -1,0 +1,24 @@
+:root {
+  --bg: #a05260;     /* Fondo burdeo claro */
+  --fg: #0f172a;     /* Texto oscuro */
+  --muted: #64748b;  /* Texto gris */
+}
+
+/* Body */
+body {
+  background: var(--bg);
+  color: var(--fg);
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Opcional: estilos del header/hero */
+header.hero {
+  background: linear-gradient(180deg, rgba(0,0,0,0.03), rgba(0,0,0,0.01));
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+footer {
+  border-top: 1px solid rgba(0,0,0,0.05);
+}
