@@ -1,7 +1,8 @@
 import { useState } from 'react';
 
 
-const Login = () => {
+
+const Login = ({ setView }) => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
@@ -16,6 +17,7 @@ const Login = () => {
       return;
     }
     alert('¡Autenticación exitosa!');
+    setView('home');
   };
 
   return (
