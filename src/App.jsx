@@ -1,16 +1,20 @@
 // src/App.jsx
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import Home   from './components/Home'   // <— cambia esta ruta
+
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Login from './components/Login';
+
 
 function App() {
   return (
     <div className="app">
       <Navbar />
-      <Home />
+      {/* <Home /> */}
+      {/* <Register /> */}
+      <Login />
       <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
